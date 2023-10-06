@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/f/mdorpbek" method="post">
+        <label for="name">Imię:</label>
+        <input type="text" name="name" id="name"><br>
+
+        <label for="surname">Nazwisko:</label>
+        <input type="text" name="surname" id="surname"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"><br>
+
+        <label for="phone">Numer telefonu:</label>
+        <input type="tel" name="phone" id="phone"><br>
+
+        <label for="city">Miejsce zamieszkania:</label>
+        <select name="select" id="city">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select><br>
+
+        <label for="gender">Płeć:</label> <br>
+        <input type="radio" name="gender" value="kobieta">Kobieta <br>
+        <input type="radio" name="gender" value="mezczyzna">Męzczyzna <br>
+
+        <input type="checkbox" name="agreement"> Wyrazam zgodę na przetwarzanie danych osobowych <br>
+
+        <label for="message">Wiadomość</label>
+        <textarea name="message" id="message"></textarea> <br>
+
+        <input type="submit" value="Wyślij">
+    </form>
+</body>
+
+</html>
